@@ -1,0 +1,66 @@
+<!DOCTYPE html> <!-- 声明 HTML5 文档类型 -->
+<html lang="zh-CN"> <!-- 设置网页语言为中文 -->
+
+<head>
+    <meta charset="UTF-8"> <!-- 设置字符编码为 UTF-8，防止中文乱码 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 响应式布局支持 -->
+    <title>我的个人简介</title> <!-- 网页标题，显示在浏览器标签上 -->
+    <style>
+        /* 写一点基础 CSS 让网页更好看 */
+        body {
+            font-family: "Helvetica", sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 40px;
+            line-height: 1.6;
+        }
+
+        .profile {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        img {
+            width: 150px;
+
+            border-radius: 100%;
+        }
+
+        ul {
+            list-style-type: circle;
+            padding-left: 20px;
+            text-align: left;
+        }
+
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile"> <!-- 外层容器 -->
+        <h1>你好，我是pp</h1> <!-- 网页主标题 -->
+        <img src="https://images.weserv.nl/?url=i.imgur.com/ASu2z5Y.jpeg" alt="头像"> <!-- 头像图片（你可以换成自己的） -->
+        <p>我是一个热爱前端开发的学生，正在努力学习 HTML、CSS 和 JavaScript。</p> <!-- 自我介绍 -->
+
+        <h2>我的兴趣</h2>
+        <ul>
+            <li>编程</li>
+            <li>看日落 🌅</li>
+            <li>看推理小说</li>
+            <li>看动漫</li>
+            <li>听音乐</li>
+        </ul>
+
+        <p>📧 <a href="mailto:56814375pyh@gmail.com">联系我</a></p> <!-- 点击打开邮箱发送邮件 -->
+    </div>
+</body>
+
+</html>
